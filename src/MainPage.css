@@ -1,0 +1,94 @@
+/* MainPage.css */
+.main-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e0f7fa; /* Light blue background */
+    color: #01579b; /* Dark blue text */
+    min-height: 100vh;
+    padding: 20px;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px; /* Increase width to match content */
+    margin-bottom: 20px;
+    position: relative;
+  }
+  
+  .logo {
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    left: -150px; /* Position the logo on the left */
+    top: 10px;
+  }
+  
+  .title {
+    font-size: 2em;
+    color: #0288d1;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .content {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    justify-content: space-between;
+  }
+  
+  .calendar-container {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .calendar {
+    border: none;
+    background-color: #b3e5fc; /* Another shade of blue */
+    color: #01579b;
+    border-radius: 8px;
+    padding: 10px;
+  }
+  
+  .react-calendar__navigation button {
+    color: #0288d1;
+    background: none;
+    font-size: 1.2em;
+  }
+  
+  .react-calendar__month-view__days__day--neighboringMonth {
+    color: #81d4fa; /* Light blue for adjacent months */
+  }
+  
+  .react-calendar__tile--active {
+    background: #0288d1 !important;
+    color: white !important;
+  }
+  
+  .sidebar {
+    flex: 1;
+    background-color: #bbdefb; /* Light blue for the sidebar */
+    color: #01579b;
+    padding: 20px;
+    border-radius: 8px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .sidebar-date {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .events-container {
+    margin-top: 20px;
+    font-size: 1em;
+    color: #01579b;
+  }
+  

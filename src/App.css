@@ -1,0 +1,58 @@
+/* Full-screen background */
+.background {
+  background-image: url('./pictures/ubb2.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Centered square login box */
+.login-box {
+  background-color: rgba(255, 255, 255, 0.9); /* Lightly transparent background */
+  padding: 20px;
+  width: 300px; /* Width of the box */
+  height: 350px; /* Makes the box square */
+  border-radius: 15px; /* Rounded corners */
+  text-align: center;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3); /* Adds a shadow for depth */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/* Logo styling */
+.logo {
+  width: 200px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+/* Styling for input fields */
+.input-field {
+  width: calc(100% - 16px);
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+/* Styling for the login button */
+.login-button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #1225d3;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.login-button:hover {
+  background-color: #1c82dc;
+}
